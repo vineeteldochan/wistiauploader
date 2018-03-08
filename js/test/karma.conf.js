@@ -15,9 +15,14 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      '../../bower_components/jquery/dist/jquery.js',
       '../../bower_components/angular/angular.js',
       '../../bower_components/angular-mocks/angular-mocks.js',
+      '../../bower_components/blueimp-file-upload/js/vendor/jquery.ui.widget.js',
+      '../../bower_components/blueimp-file-upload/js/jquery.iframe-transport.js',
+      '../../bower_components/blueimp-file-upload/js/jquery.file-upload.js',
       '../uploader_component.js',
+      '../*.js',
       'unit/*.js'
     ],
 
