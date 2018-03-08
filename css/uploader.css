@@ -1,0 +1,60 @@
+.boxer {
+  width: 50%;
+  float: right;
+  margin: 20px 0;
+
+}
+embedvideo {
+  width:400px;
+  float:left;
+  padding: 20px;
+}
+.btn{
+  overflow:hidden;
+  position:relative;
+  margin: 10px 0 10px 20px;
+}
+#fileupload{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px !important;
+  direction: ltr;
+  cursor: pointer;
+}
+.eachvid{
+  position:relative;
+  border:1px solid black;
+  -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.8);
+  box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.8);
+}
+.close{
+  position: absolute;top: -25px;right: -14px;z-index: 1000;/*! font-size: 20px; */
+}
+.closespan{
+  font-size: 41px;
+}
+.controls{
+  background: #4444;
+  border-radius: 2px;
+  margin: 20px;
+  padding: 20px;
+  max-width: 50%;
+  min-width: 320px;
+}
+.proglbl{
+  float: left;
+  margin: -5px 5px;
+}
+.btnupload {
+  float:right;
+}
+.footauth{
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+}

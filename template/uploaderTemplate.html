@@ -1,0 +1,22 @@
+<div class="controls">
+  <span class="btn btn-success">
+    <span>Add Videos...</span>
+    <input id="fileupload" type="file" name="files[]" data-url="https://upload.wistia.com/?access_token={{$ctrl.accesstoken}}" multiple />
+  </span>
+  <span id="startall" class="btn btn-primary">
+    <span>Start All Downloads</span>
+  </span>
+  <div class="boxer">
+    <div class="proglbl">Progress: </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <ul class="list-group">
+  </ul>
+</div>
+<div class="clearfix"></div>
+<div class="videolist">
+  <embedvideo ng-repeat="vid in $ctrl.vidlist" vid="vid"></embedvideo>
+</div>
